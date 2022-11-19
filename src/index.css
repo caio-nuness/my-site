@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+@tailwind base;
+@tailwind utilities;
+
+body {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(35deg, #000000, #1e8726);
+}
