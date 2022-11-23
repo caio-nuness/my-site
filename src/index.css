@@ -8,6 +8,15 @@ body {
     background: linear-gradient(35deg, #000000, #1e8726);
 }
 
+/* <-- === HOME === -->*/
+.text-gradient {
+    @apply font-bold bg-gradient-to-r from-myblue-full to-mygreen-full text-transparent bg-clip-text
+}
+
+.contact-me {
+    @apply w-7/12 h-16 text-mywhite-full bg-mygrey-200 px-6 rounded-lg hover:bg-mygrey-150 flex justify-evenly items-center duration-500
+}
+
 
 /* <-- === FORMULÁRIO === -->*/
 .form {

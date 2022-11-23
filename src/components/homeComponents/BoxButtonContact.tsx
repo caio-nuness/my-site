@@ -5,8 +5,7 @@ export const BoxButtonContact = () => {
     return(
         <div className='w-8/12 h-16 flex items-center py-20'>
 
-            <a className='w-7/12 h-16 text-mywhite-full bg-mygrey-200 px-6 rounded-lg hover:bg-mygrey-150
-             flex justify-evenly items-center duration-500' href='https://contate.me/caio-ayslan-nunes'>
+            <a className='contact-me' href='https://contate.me/caio-ayslan-nunes'>
                 <FaWhatsapp size={30} color="whitesmoke"/>
                 Entrar em contato
             </a>
