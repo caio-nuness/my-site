@@ -4,7 +4,7 @@ const data = [
     {
         id: 1,
         sourceImgCard: imageCardDefault,
-        titleCard: "BUSCADOR DE CEP",
+        titleCard: "Primeiro Projeto",
         descriptionCard: "O melhor buscador de cep da região. Faça suas buscas com rapidez, e especificidade e segurança, entre com o cep e consiga diversos outros dados do endereço.",
         linkDeployCard: "https://github.com/caio-nuness",
         linkCodeCard: "https://github.com/caio-nuness/search-cep",
@@ -12,7 +12,7 @@ const data = [
     {
         id: 2,
         sourceImgCard: imageCardDefault,
-        titleCard: "BUSCADOR DE CEP",
+        titleCard: "Segundo Projeto",
         descriptionCard: "O melhor buscador de cep da região. Faça suas buscas com rapidez, e especificidade e segurança, entre com o cep e consiga diversos outros dados do endereço.",
         linkDeployCard: "https://github.com/caio-nuness",
         linkCodeCard: "https://github.com/caio-nuness/search-cep",
@@ -20,7 +20,7 @@ const data = [
     {
         id: 3,
         sourceImgCard: imageCardDefault,
-        titleCard: "BUSCADOR DE CEP",
+        titleCard: "Terceiro Projeto",
         descriptionCard: "O melhor buscador de cep da região. Faça suas buscas com rapidez, e especificidade e segurança, entre com o cep e consiga diversos outros dados do endereço.",
         linkDeployCard: "https://github.com/caio-nuness",
         linkCodeCard: "https://github.com/caio-nuness/search-cep",
