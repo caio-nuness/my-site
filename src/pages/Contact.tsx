@@ -1,6 +1,4 @@
 import Layout from "../components/Layout"
-import { Input } from '../components/contactComponents/Input'
-import { ButtonForm } from "../components/contactComponents/ButtonForm"
 
 import formimage from '../assets/images/formimage.svg';
 import { Form } from "../components/contactComponents/Form";
