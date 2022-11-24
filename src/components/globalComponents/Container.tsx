@@ -5,7 +5,7 @@ interface ContainerProps {
 export const Container = (props: ContainerProps) => {
     return (
         <div
-            className="w-[80vw] h-scree bg-mygrey-150 flex items-center justify-center">
+            className="w-[80vw]  h-scree container-mobile bg-mygrey-150  flex items-center justify-center">
             {props.children}
         </div>
     )

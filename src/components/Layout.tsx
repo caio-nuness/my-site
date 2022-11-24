@@ -9,7 +9,7 @@ export default function Layout({ children }: LayoutProps) {
    return(
     <Container>
         <Wrapper>
-            <main className='h-[780px] flex items-center justify-center'>
+            <main className='h-[780px]  flex items-center justify-center'>
                 { children }
             </main>         
         </Wrapper>

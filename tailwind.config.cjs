@@ -34,12 +34,12 @@ module.exports = {
         bold: 700,
       },
       screens: {
-        'mobile-p': '320px',
-        'mobile-m': '375px',
-        'mobile-g': '425px',
-        'tablet': '768px',
-        'leptop': '1024px',
-        'leptop-g': '1440px',
+        'mobile-p': { 'max': '320px' },
+        'mobile-m': { 'max': '375px' },
+        'mobile-g': { 'max': '425px' },
+        'tablet':   { 'max': '768px' },
+        'leptop':   { 'max': '1024px'},
+        'leptop-g': { 'max': '1440px'},
       }
     },
   },

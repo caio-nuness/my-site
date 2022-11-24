@@ -1,0 +1,76 @@
+
+
+
+/* < === === === === ELEMENTOS GLOBAIS MOBILE === === === === >*/
+.container-mobile {
+    @apply  mobile-g:w-[100vw] 
+}
+
+.wrapper-mobile {
+    @apply mobile-g:w-[100vw]  
+}
+
+.layout-mobile {
+    @apply mobile-g:flex-col
+}
+
+.text-footer-mobile {
+    @apply mobile-g:text-[10px]
+}
+
+
+/* < === === === === NAVBAR === === === === >*/
+.logo-mobile {
+    @apply mobile-g:hidden
+}
+
+.header-mobile {
+    @apply mobile-g:px-2 mobile-g:items-center mobile-g:bg-red-900
+}
+
+.icon-burger {
+    @apply mobile-g:flex
+}
+
+.nav-mobile {
+    @apply mobile-g:w-full mobile-g:h-full mobile-g:items-center  
+}
+
+/* < === === === === MAIN ELEMENTOS MOBILE === === === === >*/
+.left-main-mobile {
+    @apply  mobile-g:w-full 
+            mobile-g:h-full  
+            mobile-g:items-center 
+            mobile-g:flex 
+            mobile-g:flex-col 
+            mobile-g:justify-between
+
+}
+
+.right-main-mobile {
+    @apply mobile-g:hidden
+}
+
+.h1-main-mobile {
+    @apply mobile-g:text-3xl mobile-g:text-center
+}
+
+.span-main-mobile {
+    @apply mobile-g:text-5xl 
+}
+
+.box-whats {
+    @apply  mobile-g:w-[90vw] mobile-g:justify-evenly
+            mobile-g:h-[15vh] mobile-g:flex-col 
+            mobile-g:p-0 
+}
+
+.contact-me {
+    @apply mobile-g:w-8/12
+}
+
+.social-icons-mobile {
+    @apply mobile-g:w-5/12
+}
+
+/* < === === === === DEMAIS ELEMENTOS MOBILE === === === === >*/

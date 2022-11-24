@@ -8,7 +8,7 @@ body {
     background: linear-gradient(35deg, #000000, #1e8726);
 }
 
-/* <-- === HOME === -->*/
+/* < === === === === ESTILOS DA HOME === === === === >*/
 .text-gradient {
     @apply font-bold bg-gradient-to-r from-myblue-full to-mygreen-full text-transparent bg-clip-text
 }
@@ -17,8 +17,7 @@ body {
     @apply w-7/12 h-16 text-mywhite-full bg-mygrey-200 px-6 rounded-lg hover:bg-mygrey-150 flex justify-evenly items-center duration-500
 }
 
-
-/* <-- === FORMULÁRIO === -->*/
+/* < === === === === ESTILO DO FORMULARIO === === === === >*/
 .form {
     @apply w-full h-auto rounded-2xl bg-mygrey-150 p-3
 }
