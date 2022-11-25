@@ -1,6 +1,3 @@
-
-
-
 /* < === === === === ELEMENTOS GLOBAIS MOBILE === === === === >*/
 .container-mobile {
     @apply  mobile-g:w-[100vw] 
@@ -25,15 +22,15 @@
 }
 
 .header-mobile {
-    @apply mobile-g:px-2 mobile-g:items-center mobile-g:bg-red-900
-}
-
-.icon-burger {
-    @apply mobile-g:flex
+    @apply mobile-g:items-center
 }
 
 .nav-mobile {
-    @apply mobile-g:w-full mobile-g:h-full mobile-g:items-center  
+    @apply mobile-g:w-full mobile-g:h-full mobile-g:justify-around mobile-g:flex
+} 
+
+.mylink-mobile {
+    @apply mobile-g:flex-col w-24 
 }
 
 /* < === === === === MAIN ELEMENTOS MOBILE === === === === >*/
@@ -73,4 +70,4 @@
     @apply mobile-g:w-5/12
 }
 
-/* < === === === === DEMAIS ELEMENTOS MOBILE === === === === >*/
+/* < === === === === PAGINA DE PROJETOS MOBILE === === === === >*/
