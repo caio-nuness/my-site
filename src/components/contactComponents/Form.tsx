@@ -49,7 +49,7 @@ export const Form: Function = () => {
 
 
     return (
-        <form className="form" onSubmit={sendEmail}>
+        <form className="form form-mobile" onSubmit={sendEmail}>
 
             <h1>Entre em contato</h1>
 

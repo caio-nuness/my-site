@@ -1,0 +1,27 @@
+.boximage-contact-mobile {
+    @apply 
+    mobile-g:hidden
+}
+
+.box-form-mobile {
+    @apply
+    mobile-g:w-[90%]
+}
+
+.form-mobile {
+    @apply
+    mobile-g:text-sm
+
+}
+
+.form-mobile h1 {
+    @apply
+    mobile-g:text-lg
+}
+
+.button-form-mobile {
+    @apply
+    mobile-g:w-10/12
+    mobile-g:px-20
+}
+
