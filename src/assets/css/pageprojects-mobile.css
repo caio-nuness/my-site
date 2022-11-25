@@ -1,0 +1,15 @@
+.box-cards-mobile {
+    @apply 
+    mobile-g:max-h-full
+    mobile-g:grid  
+    mobile-g:overflow-y-scroll
+    mobile-g:justify-center 
+    mobile-g:gap-4 
+    mobile-g:py-4
+}
+
+.content-cards-mobile {
+    @apply  
+    mobile-g:w-full 
+    mobile-g:h-full 
+}

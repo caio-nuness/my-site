@@ -26,11 +26,15 @@
 }
 
 .nav-mobile {
-    @apply mobile-g:w-full mobile-g:h-full mobile-g:justify-around mobile-g:flex
+    @apply mobile-g:w-full 
+    mobile-g:h-full 
+    mobile-g:justify-around 
+    mobile-g:flex
 } 
 
 .mylink-mobile {
-    @apply mobile-g:flex-col w-24 
+    @apply mobile-g:flex-col 
+    mobile-g:w-20 mobile-g:py-2
 }
 
 /* < === === === === MAIN ELEMENTOS MOBILE === === === === >*/

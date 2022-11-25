@@ -6,7 +6,7 @@ export const MainTitle = () => {
                 Meu nome é <br />
                 <span className="font-bold text-7xl span-main-mobile">Caio Nunes</span>, sou <br />
                 <span className="text-gradient text-7xl span-main-mobile">
-                    Desenvolvedor Front-End 
+                    Desenvolvedor FullStack 
                 </span>
             </h1>
         </>
