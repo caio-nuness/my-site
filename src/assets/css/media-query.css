@@ -21,21 +21,34 @@
 }
 
 .header-mobile {
-  @apply mobile-g:items-center;
+  @apply mobile-g:items-center
+   mobile-g:px-4
+   mobile-g:justify-between
 }
 
 .nav-mobile {
   @apply mobile-g:w-full 
     mobile-g:h-full 
     mobile-g:justify-around 
-    mobile-g:flex;
+    mobile-g:hidden;
 }
 
 .mylink-mobile {
   @apply mobile-g:flex-col 
-    mobile-g:w-20 
+    mobile-g:w-16 
     mobile-g:py-2
     mobile-g:text-xs;
+}
+
+.my-button-toggle {
+  @apply mobile-g:flex
+}
+
+.burguer-nav {
+  @apply mobile-g:flex 
+  mobile-g:w-full h-full  
+  mobile-g:justify-evenly 
+  mobile-g:items-center
 }
 
 /* < === === === === MAIN ELEMENTOS MOBILE === === === === >*/

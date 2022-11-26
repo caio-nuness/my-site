@@ -1,36 +1,34 @@
-import { MyLink } from './MyLink'
-import { FaHome, FaToolbox, FaMailBulk, FaUserAlt } from 'react-icons/fa'
+import { NavLinks } from './NavLinks'
 
-
-
-
+import Hamburger from 'hamburger-react'
+import { useState } from 'react'
 
 export const Navbar = () => {
-    return (
-        <div className='hidden lg:flex w-5/12 h-full items-center justify-between nav-mobile'>
-            <MyLink
-                icon={<FaHome size={20} color="whitesmoke" />}
-                titleLink='Home'
-                hrefLink='/'
-            />
 
-            <MyLink
-                icon={<FaToolbox size={20} color="whitesmoke" />}
-                titleLink='Projetos'
-                hrefLink='/projects'
-            />
+  const [isOpen, setOpen] = useState(false)
+  const [active, setActive] = useState<any>()
 
-            <MyLink
-                icon={<FaMailBulk size={20} color="whitesmoke" />}
-                titleLink='Contato'
-                hrefLink='/contact'
-            />
+  return (
+    <>
+      <div className="hidden lg:flex w-5/12 h-full items-center justify-between nav-mobile">
+        <NavLinks />
+      </div>
 
-            <MyLink
-                icon={<FaUserAlt size={20} color="whitesmoke" />}
-                titleLink='Sobre'
-                hrefLink='/about'
-            />
+      {active ? (
+        <div className="hidden burguer-nav ">
+          <NavLinks />
         </div>
-    )
+      ) : ""}
+
+
+      <button className="my-button-toggle hidden">
+        <Hamburger
+          toggled={isOpen}
+          toggle={setOpen}
+          color="white"
+          onToggle={(toggled) => toggled ? setActive(toggled) : setActive(toggled)}
+        />
+      </button>
+    </>
+  )
 }
