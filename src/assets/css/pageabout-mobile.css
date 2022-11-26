@@ -1,0 +1,52 @@
+.global-main-mobile {
+  @apply mobile-g:h-[85%];
+}
+
+.about-mobile {
+  @apply mobile-g:h-[90%]
+    mobile-g:w-[90%]
+    mobile-g:flex-col
+    mobile-g:grid-cols-1
+    mobile-g:gap-4
+    mobile-g:py-1
+    mobile-g:mb-10
+    mobile-g:overflow-y-scroll
+    mobile-g:justify-items-center;
+}
+
+.card-mobile {
+  @apply mobile-g:w-[90%]
+    mobile-g:h-[100%]
+    mobile-g:py-4;
+}
+
+.card-mobile > h2 {
+  @apply mobile-g:mb-5;
+}
+
+.img-mobile {
+  @apply mobile-g:h-[90px]
+  mobile-g:w-[90px];
+}
+
+/* === === BOX PROFILE MOBILE === === */
+
+.box-cardprofile-mobile {
+  @apply mobile-g:h-auto;
+}
+
+.box-cardprofile-mobile h1 {
+  @apply mobile-g:text-base;
+}
+
+.box-description-profile-mobile {
+  @apply mobile-g:mt-4;
+}
+
+.img-mobile {
+  @apply mobile-g:text-sm;
+}
+
+.description-mobile {
+  @apply mobile-g:text-sm;
+}
